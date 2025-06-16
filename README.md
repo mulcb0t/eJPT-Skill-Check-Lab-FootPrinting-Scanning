@@ -47,6 +47,8 @@ The task was to gather *FLAGS (1 → 5)* using various reconnaissance tools and 
 
 ## Access to the project:
 
+*Written in Slovak language*
+
 [EJPT Skill Check Lab.pdf](./EJPT%20Skill%20Check%20Lab.pdf)
 
 ## Author:
