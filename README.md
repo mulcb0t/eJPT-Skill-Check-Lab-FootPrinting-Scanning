@@ -35,7 +35,13 @@ The task was to gather *FLAGS (1 → 5)* using various reconnaissance tools and 
 |   4.  | Backup files discovery ($404 error) | **Not captured (403 Forbidden)**   | gobuster + curl |
 |   5.  | API discovery                       | `55574431357347bb843db2ddea9328`   | httrack + grep  |
 
-
+| Flag # | Task                                 | Hash / Value                                 | Method |
+|--------|--------------------------------------|----------------------------------------------|--------|
+| Flag 1 | robots.txt file                      | `2d4ea9ff30474660896a93bf2662bba3`           | Direct Access |
+| Flag 2 | Web server & CMS version             | `38baf47279aa41fb9661cadd4bf20532`           | WhatWeb |
+| Flag 3 | Directory listing                    | `a4bda9f806354b5d98fde9d200fc1fe8`           | DIRB |
+| Flag 4 | Backup files discovery (403 error)   | Not captured (403 Forbidden)                 | Gobuster + Curl |
+| Flag 5 | Mirroring & API discovery            | `55574431357347bb843db2ddea9328`             | HTTrack + Grep |
 
 ## What i've noticed:
 
