@@ -53,4 +53,4 @@ The task was to gather *FLAGS (1 → 5)* using various reconnaissance tools and 
 
 ## Author:
 
-Bc. Peter Mulik **(mulcb0ot)**
+Bc. Peter Mulik **(mulcb0t)**
