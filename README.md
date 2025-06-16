@@ -28,20 +28,14 @@ The task was to gather *FLAGS (1 → 5)* using various reconnaissance tools and 
 
 ## Results of Flags:
 
-| Flags | Quests                              | Hash value                         | Method          |
-|   1.  | robots.txt                          | `2d4ea9ff30474660896a93bf2662bba3` | Direct Access   | 
-|   2.  | Web Server & CMS version            | `38baf47279aa41fb9661cadd4bf20532` | whatweb         |
-|   3.  | Directory listening                 | `a4bda9f806354b5d98fde9d200fc1fe8` | dirb            |
-|   4.  | Backup files discovery ($404 error) | **Not captured (403 Forbidden)**   | gobuster + curl |
-|   5.  | API discovery                       | `55574431357347bb843db2ddea9328`   | httrack + grep  |
 
-| Flag # | Task                                 | Hash / Value                                 | Method |
+| Flags  | Task                                 | Hash / Value                                 | Method |
 |--------|--------------------------------------|----------------------------------------------|--------|
-| Flag 1 | robots.txt file                      | `2d4ea9ff30474660896a93bf2662bba3`           | Direct Access |
-| Flag 2 | Web server & CMS version             | `38baf47279aa41fb9661cadd4bf20532`           | WhatWeb |
-| Flag 3 | Directory listing                    | `a4bda9f806354b5d98fde9d200fc1fe8`           | DIRB |
-| Flag 4 | Backup files discovery (403 error)   | Not captured (403 Forbidden)                 | Gobuster + Curl |
-| Flag 5 | Mirroring & API discovery            | `55574431357347bb843db2ddea9328`             | HTTrack + Grep |
+| 1.     | robots.txt file                      | `2d4ea9ff30474660896a93bf2662bba3`           | Direct Access |
+| 2.     | Web server & CMS version             | `38baf47279aa41fb9661cadd4bf20532`           | WhatWeb |
+| 3.     | Directory listing                    | `a4bda9f806354b5d98fde9d200fc1fe8`           | DIRB |
+| 4.     | Backup files discovery (403 error)   | **Not captured (403 Forbidden)**             | Gobuster + Curl |
+| 5.     | Mirroring & API discovery            | `55574431357347bb843db2ddea9328`             | HTTrack + Grep |
 
 ## What i've noticed:
 
